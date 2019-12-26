@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 2019_12_23_220447) do
     t.string "sex"
     t.string "race"
     t.string "image_url"
+    t.string "pdf_img"
     t.string "pdf_url"
     t.text "details"
     t.datetime "created_at", precision: 6, null: false

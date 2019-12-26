@@ -22,25 +22,9 @@ Criminal.create(
     race: "Asian", 
     aliases: "Pak Jin Hek, Jin Hyok Park",
     image_url: "https://www.fbi.gov/wanted/cyber/park-jin-hyok/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/park-jin-hyok/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/park-jin-hyok/@@download.pdf",
-    details: 'Park attended the Kim Chaek University of Technology in Pyongyang, North Korea. 
-He is a North Korean citizen last known to be in North Korea. Park has traveled to China 
-in the past and conducted legitimate IT work under the front company "Chosun Expo" or 
-the Korean Expo Joint Venture in addition to activities conducted on behalf of North Korea\'s 
-Reconnaissance General Bureau.  Park Jin Hyok is allegedly a North Korean computer programmer 
-who is part of a state-sponsored hacking organization responsible for some of the costliest 
-computer intrusions in history, including the cyber attack on Sony Pictures Entertainment, 
-a series of attacks targeting banks across the world that collectively attempted to steal 
-more than one billion dollars, and the WannaCry ransomware attack that affected tens of 
-thousands of computer systems across the globe. Park was alleged to be a participant in 
-a wide-ranging criminal conspiracy undertaken by a group of hackers employed by a company 
-that was operated by the North Korean government. The front company – Chosun Expo Joint Venture, 
-also known as Korea Expo Joint Venture – was affiliated with Lab 110, one of the North Korean 
-government’s hacking organizations. That hacking group is what some private cybersecurity 
-researchers have labeled the “Lazarus Group.”  On June 8, 2018, a federal arrest warrant 
-was issued for Park Jin Hyok in the United States District Court, Central District of California, 
-after he was charged with one count of conspiracy to commit wire fraud and one count of conspiracy 
-to commit computer-related fraud (computer intrusion).')
+    details: 'Park attended the Kim Chaek University of Technology in Pyongyang, North Korea. He is a North Korean citizen last known to be in North Korea. Park has traveled to China in the past and conducted legitimate IT work under the front company "Chosun Expo" or the Korean Expo Joint Venture in addition to activities conducted on behalf of North Korea\'s Reconnaissance General Bureau.  Park Jin Hyok is allegedly a North Korean computer programmer who is part of a state-sponsored hacking organization responsible for some of the costliest computer intrusions in history, including the cyber attack on Sony Pictures Entertainment, a series of attacks targeting banks across the world that collectively attempted to steal more than one billion dollars, and the WannaCry ransomware attack that affected tens of thousands of computer systems across the globe. Park was alleged to be a participant in a wide-ranging criminal conspiracy undertaken by a group of hackers employed by a company that was operated by the North Korean government. The front company – Chosun Expo Joint Venture, also known as Korea Expo Joint Venture – was affiliated with Lab 110, one of the North Korean government’s hacking organizations. That hacking group is what some private cybersecurity researchers have labeled the “Lazarus Group.”  On June 8, 2018, a federal arrest warrant was issued for Park Jin Hyok in the United States District Court, Central District of California, after he was charged with one count of conspiracy to commit wire fraud and one count of conspiracy to commit computer-related fraud (computer intrusion).')
 
 Criminal.create(
     name: "Maksim Viktorovich Yakubets", 
@@ -52,6 +36,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/maksim-viktorovich-yakubets/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/1/f/1fe2db11383b414c82c727f016da2cb0/normal/dump_1.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/maksim-viktorovich-yakubets/@@download.pdf",
     details: 'Maksim Viktorovich Yakubets is wanted for his involvement with computer malware that infected 
 tens of thousands of computers in both North America and Europe, resulting in actual financial 
@@ -82,6 +67,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/igor-olegovich-turashev/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/e/6/e6fa6b2586694bdf8286594082bccbe2/normal/dump_1.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/igor-olegovich-turashev/@@download.pdf",
     details: 'Igor Olegovich Turashev is wanted for his involvement with computer malware which 
 infected tens of thousands of computers, in both North America and Europe, resulting in financial 
@@ -104,6 +90,7 @@ Criminal.create(
     sex: "Male",
     race: "Asian",
     image_url: "https://www.fbi.gov/wanted/cyber/fujie-wang/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/fujie-wang/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/fujie-wang/@@download.pdf",
     details: 'On May 7, 2019, a grand jury in the United States District Court for the Southern 
 District of Indiana, Indianapolis Division, indicted two individuals for conspiracy to commit 
@@ -128,6 +115,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/mojtaba-masoumpour/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/mojtaba-masoumpour/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/mojtaba-masoumpour/@@download.pdf",
     details: 'Mojtaba Masoumpour is wanted for his alleged involvement in criminal activities to 
 include computer intrusion and aggravated identity theft.  Masoumpour allegedly created and operated 
@@ -148,6 +136,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/copy_of_behzad-mesri/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/copy_of_behzad-mesri/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/copy_of_behzad-mesri/@@download.pdf",
     details: 'A former U.S. Air Force intelligence specialist has been charged with espionage 
 on behalf of Iran in an indictment that also charges four Iranians with a cyber campaign targeting 
@@ -163,6 +152,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/hossein-parvar/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/hossein-parvar/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/hossein-parvar/@@download.pdf",
     details: 'Hossein Parvar is wanted for his alleged involvement in criminal activities to include 
 computer intrusion and aggravated identity theft.  Parvar allegedly created and operated false social 
@@ -183,6 +173,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/mohamad-paryar/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/mohamad-paryar/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/mohamad-paryar/@@download.pdf",
     details: 'Mohamad Paryar is wanted for his alleged involvement in criminal activities 
 to include computer intrusion and aggravated identity theft.  Paryar was allegedly contracted 
@@ -204,6 +195,7 @@ Criminal.create(
     sex: "Male",
     race: "Asian",
     image_url: "https://www.fbi.gov/wanted/cyber/zhang-shilong/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/zhang-shilong/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/zhang-shilong/@@download.pdf",
     details: 'On December 17, 2018, a grand jury in the United States District Court for the 
 Southern District of New York indicted ZHANG SHILONG, aka “Baobeilong,” aka “Zhang Jianguo,” 
@@ -238,6 +230,7 @@ Criminal.create(
     sex: "Male",
     race: "Asian",
     image_url: "https://www.fbi.gov/wanted/cyber/zhu-hua/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/zhu-hua/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/zhu-hua/@@download.pdf",
     details: 'On December 17, 2018, a grand jury in the United States District Court for the Southern District of 
 New York indicted ZHU HUA, aka “Afwar,” aka “CVNX,” aka “Alayos,” aka “Godkiller,” and ZHANG SHILONG, aka “Baobeilong,” 
@@ -269,6 +262,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/aleksei-sergeyevich-morenets/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/a/7/a795a955d00143e79724b244f8d7944d/normal/dump_1.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/aleksei-sergeyevich-morenets/@@download.pdf",
     details: 'Occupation Officer in the Russian Federation’s Main Intelligence Directorate of the General Staff (GRU) 
 Nationality	Russian Morenets is alleged to have been a Russian military intelligence officer, assigned to Unit 26165. 
@@ -295,6 +289,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/evgenii-mikhaylovich-serebriakov/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/c/d/cd6d6bfd8c2f4f5eb22cb43e5e01e226/normal/dump_1.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/evgenii-mikhaylovich-serebriakov/@@download.pdf",
     details: 'Serebriakov is alleged to have been a Russian military intelligence officer, assigned to Unit 26165. 
 Serebriakov was last known to be located in Moscow, Russia. On October 3, 2018, a federal grand jury sitting in the 
@@ -313,6 +308,7 @@ these defendants upon the grand jury’s return of the indictment.')
 Criminal.create(
     name: "Alexey Valerevich Minin",
     image_url: "https://www.fbi.gov/wanted/cyber/alexey-valerevich-minin/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/e/a/eae09c974c1743938ad5510d6f08d2c5/normal/dump_1.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/alexey-valerevich-minin/@@download.pdf",
     aliases: "Алексей Валерьевич Минин",
     date_of_birth:	"May 27, 1972",
@@ -337,6 +333,7 @@ federal arrest warrant for each of these defendants upon the grand jury’s retu
 Criminal.create(
     name: "Oleg Mikhaylovich Sotnikov",
     image_url: "https://www.fbi.gov/wanted/cyber/oleg-mikhaylovich-sotnikov/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/c/f/cf18b53d6e754206bb2dec2543bada38/normal/dump_1.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/oleg-mikhaylovich-sotnikov/@@download.pdf",
     aliases: "Олег Михайлович Сотников",
     date_of_birth: "August 24, 1972",
@@ -368,6 +365,7 @@ Criminal.create(
     sex: "Male",
     race: "White",
     image_url: "https://www.fbi.gov/wanted/cyber/dmitriy-sergeyevich-badin/@@images/image/preview",
+    pdf_img:"https://www.fbi.gov/wanted/cyber/dmitriy-sergeyevich-badin/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/dmitriy-sergeyevich-badin/@@download.pdf",
     details: 'On July 13, 2018, a federal grand jury sitting in the District of Columbia returned an indictment 
 against 12 Russian military intelligence officers for their alleged roles in interfering with the 2016 United States 
@@ -405,7 +403,8 @@ Criminal.create(
     eyes: 'Blue',
     sex: 'Male',
     race: 'White',
-    image_url: "https://www.fbi.gov/wanted/cyber/artem-andreyevich-malyshev",    
+    image_url: "https://www.fbi.gov/wanted/cyber/artem-andreyevich-malyshev/@@images/image/preview",
+    pdf_img: "https://www.fbi.gov/wanted/cyber/artem-andreyevich-malyshev/@@screenshot.gif",
     pdf_url: "https://www.fbi.gov/wanted/cyber/artem-andreyevich-malyshev/@@download.pdf",
     details: 'Malyshev is alleged to have been a Russian military intelligence officer holding the rank of Senior 
 Lieutenant, assigned to Unit 26165.  Malyshev was last known to be located in Moscow, Russia. On July 13, 2018, 
@@ -446,6 +445,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/ivan-sergeyevich-yermakov/@@download.pdf',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/ivan-sergeyevich-yermakov/@@screenshot.gif",
     image_url: 'https://www.fbi.gov/wanted/cyber/ivan-sergeyevich-yermakov/@@images/image/preview',
     details: 'Yermakov is alleged to have been a Russian military intelligence officer, assigned to Unit 26165. 
 Yermakov was last known to be located in Moscow, Russia. On July 13, 2018, a federal grand jury sitting in the 
@@ -486,6 +486,7 @@ Criminal.create(
     sex: 'Male',
     race:	'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/boris-alekseyevich-antonov/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/9/3/939051b953714c2b80bcb7cf5177af47/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/boris-alekseyevich-antonov/@@download.pdf',
     details: 'Antonov is alleged to have been a Russian military intelligence officer holding the rank of Major,
 assigned to Unit 26165.  Antonov was last known to be located in Moscow, Russia. On July 13, 2018, a federal 
@@ -515,6 +516,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/anatoliy-sergeyevich-kovalev/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/d/2/d2b8efec48b84683b11d4b0b4560e0d8/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/anatoliy-sergeyevich-kovalev/@@download.pdf',
     details: 'Kovalev is alleged to have been a Russian military intelligence officer, assigned to Unit 74455.  
 Kovalev was last known to be located in Moscow, Russia. On July 13, 2018, a federal grand jury sitting in the 
@@ -544,6 +546,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/nikolay-yuryevich-kozachek/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/b/6/b6b3e20e4e4543b7b7e5ae130c7d4e62/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/nikolay-yuryevich-kozachek/@@download.pdf',
     details: 'Kozachek is alleged to have been a Russian military intelligence officer holding the rank of 
 Lieutenant Captain, assigned to Unit 26165.  Kozachek was last known to be located in Moscow, Russia. On July 13, 
@@ -574,6 +577,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/aleksey-viktorovich-lukashev/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/8/6/86215506d6d14698add850260129a714/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/aleksey-viktorovich-lukashev/@@download.pdf',
     details: 'Lukashev is alleged to have been a Russian military intelligence officer holding the rank of 
 Senior Lieutenant, assigned to Unit 26165.  Lukashev was last known to be located in Moscow, Russia. On July 13, 
@@ -603,6 +607,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/sergey-aleksandrovich-morgachev/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/3/b/3bd13718133a406bbf763cf9f3332a83/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/sergey-aleksandrovich-morgachev/@@download.pdf',
     details: 'Morgachev is alleged to have been a Russian military intelligence officer holding the rank of 
 Lieutenant Colonel, assigned to Unit 26165.  Morgachev was last known to be located in Moscow, Russia. On 
@@ -634,6 +639,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/aleksandr-vladimirovich-osadchuk/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/c/7/c760b6afe9224ef4b5525a895e71a352/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/aleksandr-vladimirovich-osadchuk/@@download.pdf',
     details: 'Osadchuk is alleged to have been a Russian military intelligence officer who held the rank 
 of Colonel and was the commanding officer of Unit 74455.  Osadchuk was last known to be located in Moscow, 
@@ -664,6 +670,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/aleksey-aleksandrovich-potemkin/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/2/b/2bca7dd5d83844dbabb7cb5386fd1d1e/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/aleksey-aleksandrovich-potemkin/@@download.pdf',
     details: 'Potemkin is alleged to have been a Russian military intelligence officer assigned as a 
 supervisor in Unit 74455.  Potemkin was last known to be located in Moscow, Russia. On July 13, 2018, 
@@ -695,6 +702,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/pavel-vyacheslavovich-yershov/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/@@dvpdffiles/9/9/99bf1cf8524c474287c32319b87f742f/normal/dump_1.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/pavel-vyacheslavovich-yershov/@@download.pdf',
     details: 'Yershov is alleged to have been a Russian military intelligence officer, assigned to Unit 26165. 
 Yershov was last known to be located in Moscow, Russia. On July 13, 2018, a federal grand jury sitting in the 
@@ -724,6 +732,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/gholamreza-rafatnejad/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/gholamreza-rafatnejad/@@screenshot.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/gholamreza-rafatnejad/@@download.pdf',
     details: 'Rafatnejad is known to speak Farsi and resides in Iran. Gholamreza Rafatnejad is wanted for 
 his alleged involvement in criminal activities, including obtaining unauthorized access to computer systems, 
@@ -738,7 +747,7 @@ for the Southern District of New York indicted Rafatnejad on computer intrusion,
 identity theft charges, and a federal arrest warrant has been issued for his arrest.')
 
 Criminal.create(
-    name: 'EHSAN MOHAMMADI',
+    name: 'Ehsan Mohammadi',
     aliases: 'none',
     date_of_birth: 'December 25, 1980',
     place_of_birth: 'Tehran, Iran',
@@ -747,6 +756,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/ehsan-mohammadi/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/ehsan-mohammadi/@@screenshot.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/ehsan-mohammadi/@@download.pdf',
     details: 'Mohammadi is known to speak Farsi and resides in Iran. Ehsan Mohammadi is wanted for his alleged 
 involvement in criminal activities, including obtaining unauthorized access to computer systems, stealing 
@@ -771,6 +781,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/seyed-ali-mirkarimi/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/seyed-ali-mirkarimi/@@screenshot.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/seyed-ali-mirkarimi/@@download.pdf',
     details: 'Mirkarimi is known to speak Farsi and resides in Iran. Seyed Ali Mirkarimi is wanted for his 
 alleged involvement in criminal activities, including obtaining unauthorized access to computer systems, 
@@ -795,6 +806,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/abdollah-karima/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/abdollah-karima/@@screenshot.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/abdollah-karima/@@download.pdf',
     details: 'Karima is known to speak Farsi and resides in Iran. Abdollah Karima is wanted for his alleged 
 involvement in criminal activities, including obtaining unauthorized access to computer systems, 
@@ -819,6 +831,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/mostafa-sadeghi/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/mostafa-sadeghi/@@screenshot.gif",   
     pdf_url: 'https://www.fbi.gov/wanted/cyber/mostafa-sadeghi/@@download.pdf',
     details: 'Sadeghi is known to speak Farsi and resides in Iran. Mostafa Sadeghi is wanted for his alleged 
 involvement in criminal activities, including obtaining unauthorized access to computer systems, stealing 
@@ -842,6 +855,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/sajjad-tahmasebi/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/sajjad-tahmasebi/@@screenshot.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/sajjad-tahmasebi/@@download.pdf',
     details: 'Tahmasebi is known to speak Farsi and resides in Iran. Sajjad Tahmasebi is wanted for his 
 alleged involvement in criminal activities, including obtaining unauthorized access to computer systems, 
@@ -866,6 +880,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/mohammed-reza-sabahi/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/mohammed-reza-sabahi/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/mohammed-reza-sabahi/@@download.pdf',
     details: 'Sabahi is known to speak Farsi and resides in Iran. Mohammed Reza Sabahi is wanted for his 
 alleged involvement in criminal activities, including obtaining unauthorized access to computer systems, 
@@ -889,6 +904,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/roozbeh-sabahi/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/roozbeh-sabahi/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/roozbeh-sabahi/@@download.pdf',
     details: 'Sabahi is known to speak Farsi and resides in Iran. Roozbeh Sabahi is wanted for his alleged 
 involvement in criminal activities, including obtaining unauthorized access to computer systems, stealing 
@@ -912,6 +928,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/abuzar-gohari-moqadam/@@images/image/preview',
+    pdf_img: "https://www.fbi.gov/wanted/cyber/abuzar-gohari-moqadam/@@screenshot.gif",
     pdf_url: 'https://www.fbi.gov/wanted/cyber/abuzar-gohari-moqadam/@@download.pdf',
     details: 'Moqadam is known to speak Farsi and resides in Iran. Abuzar Gohari Moqadam is wanted for his alleged 
 involvement in criminal activities, including obtaining unauthorized access to computer systems, stealing proprietary 
@@ -935,6 +952,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/danial-jeloudar/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/danial-jeloudar/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/danial-jeloudar/@@download.pdf',
     details: 'Jeloudar is believed to be living in Iran. Danial Jeloudar and Arash Amiri Abedian are wanted for 
 allegedly conspiring to use computers and the Internet to obtain, distribute, and use unauthorized credit card 
@@ -954,6 +972,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/arash-amiri-abedian/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/arash-amiri-abedian/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/arash-amiri-abedian/@@download.pdf',
     details: 'Abedian is believed to be living in Iran. Arash Amiri Abedian and Danial Jeloudar are wanted for 
 allegedly conspiring to use computers and the Internet to obtain, distribute, and use unauthorized credit card 
@@ -973,6 +992,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/mohammad-saeed-ajily/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/mohammad-saeed-ajily/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/mohammad-saeed-ajily/@@download.pdf',
     details: 'Ajily wears glasses.  He is believed to be living in Iran. Mohammad Saeed Ajily and Mohammad 
 Reza Rezakhah are wanted for allegedly conspiring with others to hack into the network and computers of a 
@@ -997,6 +1017,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/mohammad-reza-rezakhah/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/mohammad-reza-rezakhah/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/mohammad-reza-rezakhah/@@download.pdf',
     details: 'Rezakhah is believed to be living in Iran. Mohammad Reza Rezakhah and Mohammad Saeed Ajily are 
 wanted for allegedly conspiring with others to hack into the network and computers of a United States cleared 
@@ -1022,6 +1043,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/alexsey-belan/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/alexsey-belan/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/alexsey-belan/@@download.pdf',
     details: 'The FBI is offering a reward of up to $100,000 for information leading to the arrest of Alexsey Belan. 
 Belan has Russian citizenship and is known to hold a Russian passport. He speaks Russian and may travel within Russia, 
@@ -1057,8 +1079,9 @@ Criminal.create(
     eyes: 'Blue',
     sex: 'Male',
     race: 'White',
-    image_url: 'https://www.fbi.gov/wanted/cyber/dmitry-aleksandrovich-dokuchaev/@@download.pdf',
-    pdf_url: 'https://www.fbi.gov/wanted/cyber/dmitry-aleksandrovich-dokuchaev/@@images/image/preview',
+    pdf_url: 'https://www.fbi.gov/wanted/cyber/dmitry-aleksandrovich-dokuchaev/@@download.pdf',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/dmitry-aleksandrovich-dokuchaev/@@screenshot.gif',
+    image_url: 'https://www.fbi.gov/wanted/cyber/dmitry-aleksandrovich-dokuchaev/@@images/image/preview',
     details: 'Dokuchaev is alleged to be an officer of the Russian FSB, assigned to FSB Center 18.  He has Russian 
 Citizenship and was last known to be in Moscow, Russia. From at least January of 2014, continuing through December 
 of 2016, Dmitry Aleksandrovich Dokuchaev is alleged to have conspired with, among others, known and unknown FSB 
@@ -1082,6 +1105,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/igor-anatolyevich-sushchin/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/igor-anatolyevich-sushchin/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/igor-anatolyevich-sushchin/@@download.pdf',
     details: 'Sushchin has Russian citizenship and is known to hold a Russian passport.  Sushchin is alleged to 
 be a Russian Federal Security Service (FSB) Officer of unknown rank.  In addition to working for the FSB, he is 
@@ -1108,6 +1132,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/evgeniy-mikhailovich-bogachev/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/evgeniy-mikhailovich-bogachev/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/evgeniy-mikhailovich-bogachev/@@download.pdf',
     details: 'The United States Department of State’s Transnational Organized Crime Rewards Program is offering a 
 reward of up to $3 million for information leading to the arrest and/or conviction of Evgeniy Mikhailovich Bogachev.
@@ -1140,6 +1165,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/nicolae-popescu/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/@@dvpdffiles/a/b/abc6a7b20c1d4d37a460dd5ad83ef772/normal/dump_1.gif',
     pdf_url: 'https://www.fbi.gov/file-repository/@@download.pdf',
     details: 'The United States Department of State’s Transnational Organized Crime Rewards Program is offering a 
 reward of up to $1 million for information leading to the arrest and/or conviction of Nicolae Popescu. Popescu 
@@ -1169,6 +1195,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/firas-dardar/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/firas-dardar/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/firas-dardar/@@download.pdf',
     details: 'The FBI is offering a reward of up to $100,000 for information leading to the arrest of Firas Dardar. 
 Dardar is known to be a smoker. He is believed to be residing in Homs, Syria. Firas Dardar is wanted for his alleged 
@@ -1192,6 +1219,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/ahmed-al-agha/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/ahmed-al-agha/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/ahmed-al-agha/@@download.pdf',
     details: 'The FBI is offering a reward of up to $100,000 for information leading to the arrest of Ahmed Al Agha. 
 Al Agha is known to wear prescription eyeglasses. He is believed to be residing in Damascus, Syria. Ahmed Al Agha 
@@ -1212,6 +1240,7 @@ Criminal.create(
     sex: 'Male',
     race: 'Asian',
     image_url: 'https://www.fbi.gov/wanted/cyber/viet-quoc-nguyen/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/viet-quoc-nguyen/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/viet-quoc-nguyen/@@download.pdf',
     details: 'Nguyen may have acne or pockmarks on his face. He has ties to Vietnam and once resided in the Netherlands.
 Viet Quoc Nguyen is wanted for allegedly hacking into at least eight E-Mail Service Providers (ESPs) and stealing 
@@ -1235,6 +1264,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Indian)',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/shaileshkumar-p.-jain/@@download.pdf',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/shaileshkumar-p.-jain/@@screenshot.gif',
     image_url: 'https://www.fbi.gov/wanted/cyber/shaileshkumar-p.-jain/@@images/image/preview',
     details: 'The FBI is offering a reward of up to $20,000 for information leading to the arrest and conviction of 
 Shaileshkumar P. Jain. Jain is a United States citizen who has ties to Brazil, Canada, India and the Ukraine. 
@@ -1264,6 +1294,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/bjorn-daniel-sundin/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/bjorn-daniel-sundin/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/bjorn-daniel-sundin/@@download.pdf',
     details: 'The FBI is offering a reward of up to $20,000 for information leading to the arrest and conviction 
 of Bjorn Daniel Sundin. Sundin has ties to Sweden and the Ukraine. Bjorn Daniel Sundin, along with his co-conspirator, 
@@ -1293,6 +1324,7 @@ Criminal.create(
     sex: 'Male',
     race: 'Asian',
     image_url: 'https://www.fbi.gov/wanted/cyber/sun-kailiang/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/sun-kailiang/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/sun-kailiang/@@images/image/preview',
     details: 'On May 1, 2014, a grand jury in the Western District of Pennsylvania indicted five members of the 
 People’s Liberation Army (PLA) of the People’s Republic of China (PRC) for 31 criminal counts, including: 
@@ -1319,6 +1351,7 @@ Criminal.create(
     sex: 'Male',
     race: 'Asian',
     image_url: 'https://www.fbi.gov/wanted/cyber/huang-zhenyu/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/huang-zhenyu/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/huang-zhenyu/@@download.pdf',
     details: 'On May 1, 2014, a grand jury in the Western District of Pennsylvania indicted five members of the 
 People’s Liberation Army (PLA) of the People’s Republic of China (PRC) for 31 criminal counts, including: conspiring 
@@ -1344,6 +1377,7 @@ Criminal.create(
     sex: 'Male',
     race: 'Asian',
     image_url: 'https://www.fbi.gov/wanted/cyber/wen-xinyu/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/wen-xinyu/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/wen-xinyu/@@download.pdf',
     details: 'On May 1, 2014, a grand jury in the Western District of Pennsylvania indicted five members of the 
 People’s Liberation Army (PLA) of the People’s Republic of China (PRC) for 31 criminal counts, including: conspiring 
@@ -1370,6 +1404,7 @@ Criminal.create(
     sex: 'Male',
     race: 'Asian',
     image_url: 'https://www.fbi.gov/wanted/cyber/wang-dong/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/wang-dong/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/wang-dong/@@download.pdf',
     details: 'On May 1, 2014, a grand jury in the Western District of Pennsylvania indicted five members of the 
 People’s Liberation Army (PLA) of the People’s Republic of China (PRC) for 31 criminal counts, including: 
@@ -1396,6 +1431,7 @@ Criminal.create(
     sex: 'Male',
     race: 'Asian',
     image_url: 'https://www.fbi.gov/wanted/cyber/gu-chunhui/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/gu-chunhui/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/gu-chunhui/@@download.pdf',
     details: 'On May 1, 2014, a grand jury in the Western District of Pennsylvania indicted five members of the 
 People’s Liberation Army (PLA) of the People’s Republic of China (PRC) for 31 criminal counts, including: conspiring 
@@ -1421,6 +1457,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Middle Eastern)',
     image_url: 'https://www.fbi.gov/wanted/cyber/noor-aziz-uddin/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/noor-aziz-uddin/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/noor-aziz-uddin/@@download.pdf',
     details: 'The FBI is offering a reward of up to $50,000 for information leading to the arrest of Noor Aziz Uddin. 
 Noor Aziz Uddin was last known to be in Saudi Arabia, but may also travel to the United Arab Emirates, Italy, 
@@ -1444,6 +1481,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Middle Eastern)',
     image_url: 'https://www.fbi.gov/wanted/cyber/farhan-ul-arshad/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/farhan-ul-arshad/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/farhan-ul-arshad/@@download.pdf',
     details: 'The FBI is offering a reward of up to $50,000 for information leading to the arrest of Farhan Ul Arshad.
 Farhan Ul Arshad was last known to be in Malaysia, but may also travel to the United Arab Emirates, Canada, Germany, 
@@ -1469,6 +1507,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/ahmad-fathi/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/ahmad-fathi/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/ahmad-fathi/@@download.pdf',
     details: 'Fathi is known to speak both English and Farsi. Ahmad Fathi is wanted for his alleged involvement in a 
 conspiracy to conduct a coordinated campaign of distributed denial of service ("DDoS") attacks against the 
@@ -1490,6 +1529,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White',
     image_url: 'https://www.fbi.gov/wanted/cyber/sina-keissar/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/sina-keissar/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/sina-keissar/@@download.pdf',
     details: 'Keissar is known to speak Farsi and is thought to be living in Iran. Sina Keissar is wanted for 
 his alleged involvement in a conspiracy to conduct a coordinated campaign of distributed denial of service ("DDoS") 
@@ -1513,6 +1553,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Middle Eastern)',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/omid-ghaffarinia/@@download.pdf',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/omid-ghaffarinia/@@screenshot.gif',
     image_url: 'https://www.fbi.gov/wanted/cyber/omid-ghaffarinia/@@images/image/preview',
     details: 'Ghaffarinia is known to speak Farsi and is thought to be living in Iran. Omid Ghaffarinia is wanted 
 for his alleged involvement in a conspiracy to conduct a coordinated campaign of distributed denial of service 
@@ -1536,6 +1577,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Middle Eastern)',
     image_url: 'https://www.fbi.gov/wanted/cyber/amin-shokohi/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/amin-shokohi/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/amin-shokohi/@@download.pdf',
     details: 'Shokohi is known to speak Farsi and is thought to be living in Iran. Amin Shokohi is wanted for his 
 alleged involvement in a conspiracy to conduct a coordinated campaign of distributed denial of service ("DDoS") 
@@ -1557,6 +1599,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Middle Eastern)',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/mohammad-sadegh-ahmadzadegan/@@download.pdf',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/mohammad-sadegh-ahmadzadegan/@@screenshot.gif',
     image_url: 'https://www.fbi.gov/wanted/cyber/mohammad-sadegh-ahmadzadegan/@@images/image/preview',
     details: 'Ahmadzadegan is known to speak Farsi and is thought to be living in Iran. Mohammad Sadegh Ahmadzadegan 
 is wanted for his alleged involvement in a conspiracy to conduct a coordinated campaign of distributed denial of service 
@@ -1579,6 +1622,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Middle Eastern)',
     image_url: 'https://www.fbi.gov/wanted/cyber/hamid-firoozi/@@images/image/preview',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/hamid-firoozi/@@screenshot.gif',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/hamid-firoozi/@@download.pdf',
     details: 'Firoozi is known to speak Farsi and is thought to be living in Iran. Hamid Firoozi is wanted for his 
 alleged involvement in a conspiracy to conduct a coordinated campaign of distributed denial of service ("DDoS") attacks 
@@ -1601,6 +1645,7 @@ Criminal.create(
     sex: 'Male',
     race: 'White (Middle Eastern)',
     pdf_url: 'https://www.fbi.gov/wanted/cyber/nader-saedi/@@download.pdf',
+    pdf_img: 'https://www.fbi.gov/wanted/cyber/nader-saedi/@@screenshot.gif',
     image_url: 'https://www.fbi.gov/wanted/cyber/nader-saedi/@@images/image/preview',
     details: 'Saedi is known to speak Farsi and is thought to be living in Iran. Nader Saedi is wanted for his 
 alleged involvement in a conspiracy to conduct a coordinated campaign of distributed denial of service ("DDoS") 
