@@ -9,7 +9,7 @@ class CriminalsController < ApplicationController
         if criminal
             render json: {data: CriminalSerializer.new(criminal)}
         else
-            render json: {message: "No data was found with that id"}
+            render json: {error: "No data was found with that id"}
         end
     end
 end
